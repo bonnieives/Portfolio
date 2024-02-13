@@ -1,0 +1,201 @@
+.my-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0;
+    width: 100vw;
+    background-color: rgb(13, 15, 41);
+}
+
+.img-my-picture {
+    border-radius: 50%;
+    width: 20%;
+    align-self: center;
+}
+
+.top-container {
+    background-color: #52557E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.top-container-my-name{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.my-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    padding-bottom: 1%;
+    background-color: #292B53;
+}
+
+.my-description {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.link-about-me {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.header-divider {
+    width: 10vw;
+    color: white;
+}
+
+.body-section {
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    flex-direction: column;
+    padding: 0vw;
+    width: 100vw;
+    background-color: #a4aafd6b;
+}
+
+.section-title-div {
+    margin: 10px 0 0 10px;
+}
+
+.cards-container {
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 20vw;
+    height: 30vw;
+    background-color: #52557E;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.384);
+    border-radius: 5%;
+    margin: 2vw;
+    text-align: center;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 5% 5% 0 0;
+    padding: 0;
+}
+
+.card-title {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.2vw;
+    margin: 5px 0 0 0;
+}
+
+.card-divider {
+    width: 70%;
+    color: white;
+    margin-bottom: 0;
+}
+
+.card-description {
+    display: flex;
+    width: 100%;
+    align-items: center;    
+    justify-content: space-evenly;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+.card-platform .card-framework {
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+.section-title-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    padding-bottom: 1%;
+}
+
+.section-title-divider {
+    width: 30vw;
+    border-width: 1px;
+    border-color: rgb(13, 15, 41);
+}
+
+.section-title {
+    color: rgb(13, 15, 41);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.my-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    padding-bottom: 1%;
+    background-color: #292B53;
+}
+
+.my-footer-title-text {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.contact-me-divider {
+    color: white;
+    width: 60vw;
+}
+
+.container-contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding-bottom: 1%;
+    background-color: #292B53;
+}
+
+.contact-container {
+    background-color: #fff;
+    padding: 5px 5px 0px 5px;
+    border-radius: 20%;
+    margin: 10px;
+}
+
+.contact-text{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+.copyright-divider {
+    color: white;
+    width: 60vw;
+}
+
+.copyright{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+}
