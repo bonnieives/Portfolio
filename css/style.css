@@ -43,10 +43,18 @@
     font-weight: 300;
 }
 
+.link-about-me:hover {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
 .link-about-me {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
+    text-decoration: none;
 }
 
 .header-divider {
@@ -90,6 +98,7 @@
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.384);
     width: 20.2vw;
     height: 30.3vw;
+    cursor: pointer;
 }
 
 .card-image {
@@ -190,6 +199,7 @@
 
 .contact-container:hover {
     background-color: #cddceb;
+    cursor: pointer;
 }
 
 .contact-text{
