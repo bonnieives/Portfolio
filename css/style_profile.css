@@ -1,5 +1,6 @@
 body {
-    padding: 2vw 1vw;
+    padding: 2vw 1vw 0 2vw;
+    background-color: #cddceb;
 }
 
 .main-section {
@@ -17,7 +18,7 @@ body {
     justify-content: center;
     flex-direction: column;
     border-radius: 10px;
-    width: 100vw;
+    width: 100%;
     padding-bottom: 2vw;
     margin-bottom: 2vw;
     background-color: #292B53;
@@ -32,13 +33,15 @@ body {
     background-color: #52557E;
     border-radius: 10px;
     padding: 2vw 1vw;
-    margin-bottom: 2vw;
+    margin-bottom: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.384);
 }
 
 .img-my-picture-profile {
     width: 50%;
     border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.541);
+
 }
 
 .professional-role, .my-location {
@@ -130,8 +133,7 @@ body {
 .right-section {
     grid-column: 2;
     width: 100%;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+    display: flex;
 }
 
 .right-section-top {
@@ -155,4 +157,61 @@ body {
 
 .right-description {
     padding-right: 2vw;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.education-program {
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.education-institute {
+    margin-bottom: 0;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.education-date {
+    margin: 0 0 0 10px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.education-location {
+    margin: 0 10px 0 0;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.education-skills {
+    border-top: 1px solid white;
+    padding-top: 10px;
+    margin: 10px 10px;
+    font-weight: 300;
+    text-align: justify;
+    color: white;
+}
+
+.my-footer-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #292B53;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+.copyright-profile{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
 }
