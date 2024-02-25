@@ -1,0 +1,127 @@
+.application-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    width: 100%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #292B53;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.application-title{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.application-icons{
+    padding-bottom: 10px;
+}
+
+.application-icons img{
+    padding: 2px;
+    margin: 3px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.233);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.384);
+}
+
+.repository-link{
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    margin: 3px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.233);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.384);
+}
+
+.repository-link:hover{
+    background-color: rgba(202, 190, 190, 0.233);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.452);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.repository-link a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.application-card-left-picture{
+    display: flex;
+    flex-direction: row;
+    width:auto;
+    height: 50vw;
+    background-color: #52557e96;
+    padding:10px;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 20px;
+}
+
+.application-description{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.website-card-left-picture{ 
+    display: flex;
+    flex-direction: column;
+    width:auto;
+    height: fit-content;
+    background-color: #52557e96;
+    padding:10px;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 20px;
+}
+
+.application-card-left-picture img{
+    width: auto;
+    height: 100%;
+}
+
+.img-website {
+    height: auto !important; 
+    width: 46vw !important;
+}
+
+.description-content{
+    padding-bottom: 20px;
+}
+
+.github-content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.website-div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners {
+    display: flex;
+    flex-direction: row;
+}
