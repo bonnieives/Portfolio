@@ -43,6 +43,19 @@
     font-weight: 300;
 }
 
+.my-cv {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-decoration: none !important;
+    font-size: 15px;
+}
+
+.my-cv:hover {
+    font-weight: 500;
+    cursor: pointer;    
+}
+
 .link-about-me:hover {
     color: white;
     font-family: 'Roboto', sans-serif;
